@@ -1,300 +1,300 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.1.1 (Python 3.6.3 on win32)" generated="20211005 09:39:06.007" rpa="false" schemaversion="2">
+<robot generator="Robot 4.1.1 (Python 3.6.3 on win32)" generated="20211005 14:36:21.911" rpa="false" schemaversion="2">
 <suite id="s1" name="TestSuiteFile" source="C:\Users\aleksey.ermakov\PycharmProjects\RobotFrameworkProject\TestCases\TestSuiteFile.robot">
 <test id="s1-t1" name="LoginTest">
 <kw name="Open Browser" library="Selenium2Library">
 <arg>${url}</arg>
 <arg>${browser}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20211005 09:39:06.154" level="INFO">Opening browser 'chrome' to base url 'https://amd-uat.test.gosuslugi.ru/'.</msg>
-<status status="PASS" starttime="20211005 09:39:06.154" endtime="20211005 09:39:08.480"/>
+<msg timestamp="20211005 14:36:22.058" level="INFO">Opening browser 'chrome' to base url 'https://amd-uat.test.gosuslugi.ru/'.</msg>
+<status status="PASS" starttime="20211005 14:36:22.058" endtime="20211005 14:36:24.167"/>
 </kw>
 <kw name="Maximize Browser Window" library="Selenium2Library">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20211005 09:39:08.480" endtime="20211005 09:39:08.600"/>
+<status status="PASS" starttime="20211005 14:36:24.168" endtime="20211005 14:36:24.332"/>
 </kw>
 <kw name="Set Selenium Speed" library="Selenium2Library">
 <arg>0.2seconds</arg>
 <doc>Sets the delay that is waited after each Selenium command.</doc>
-<status status="PASS" starttime="20211005 09:39:08.600" endtime="20211005 09:39:08.600"/>
+<status status="PASS" starttime="20211005 14:36:24.332" endtime="20211005 14:36:24.332"/>
 </kw>
 <kw name="LoginToApplications">
 <kw name="Input Text" library="Selenium2Library">
 <arg>id:username</arg>
 <arg>admin</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:08.608" level="INFO">Typing text 'admin' into text field 'id:username'.</msg>
-<status status="PASS" starttime="20211005 09:39:08.600" endtime="20211005 09:39:09.294"/>
+<msg timestamp="20211005 14:36:24.332" level="INFO">Typing text 'admin' into text field 'id:username'.</msg>
+<status status="PASS" starttime="20211005 14:36:24.332" endtime="20211005 14:36:25.068"/>
 </kw>
 <kw name="Input Text" library="Selenium2Library">
 <arg>id:password</arg>
 <arg>HQsJCeEhU8</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:09.294" level="INFO">Typing text 'HQsJCeEhU8' into text field 'id:password'.</msg>
-<status status="PASS" starttime="20211005 09:39:09.294" endtime="20211005 09:39:09.993"/>
+<msg timestamp="20211005 14:36:25.068" level="INFO">Typing text 'HQsJCeEhU8' into text field 'id:password'.</msg>
+<status status="PASS" starttime="20211005 14:36:25.068" endtime="20211005 14:36:25.774"/>
 </kw>
 <kw name="Click Button" library="Selenium2Library">
 <arg>xpath:/html/body/div[1]/section/div[1]/section/form/div/div[3]/div[1]/div[4]/div/div/span/button</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:09.993" level="INFO">Clicking button 'xpath:/html/body/div[1]/section/div[1]/section/form/div/div[3]/div[1]/div[4]/div/div/span/button'.</msg>
-<status status="PASS" starttime="20211005 09:39:09.993" endtime="20211005 09:39:11.061"/>
+<msg timestamp="20211005 14:36:25.774" level="INFO">Clicking button 'xpath:/html/body/div[1]/section/div[1]/section/form/div/div[3]/div[1]/div[4]/div/div/span/button'.</msg>
+<status status="PASS" starttime="20211005 14:36:25.774" endtime="20211005 14:36:26.837"/>
 </kw>
-<status status="PASS" starttime="20211005 09:39:08.600" endtime="20211005 09:39:11.061"/>
+<status status="PASS" starttime="20211005 14:36:24.332" endtime="20211005 14:36:26.837"/>
 </kw>
-<status status="PASS" starttime="20211005 09:39:06.154" endtime="20211005 09:39:11.061"/>
+<status status="PASS" starttime="20211005 14:36:22.058" endtime="20211005 14:36:26.838"/>
 </test>
 <test id="s1-t2" name="CreateDocumentTest">
 <kw name="NewDocument">
 <kw name="Click Element" library="Selenium2Library">
 <arg>xpath://*[@id="root"]/section/main/div[2]/div/div[1]/div[1]/div/button[2]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:11.061" level="INFO">Clicking element 'xpath://*[@id="root"]/section/main/div[2]/div/div[1]/div[1]/div/button[2]'.</msg>
-<status status="PASS" starttime="20211005 09:39:11.061" endtime="20211005 09:39:11.649"/>
+<msg timestamp="20211005 14:36:26.840" level="INFO">Clicking element 'xpath://*[@id="root"]/section/main/div[2]/div/div[1]/div[1]/div/button[2]'.</msg>
+<status status="PASS" starttime="20211005 14:36:26.840" endtime="20211005 14:36:27.411"/>
 </kw>
-<status status="PASS" starttime="20211005 09:39:11.061" endtime="20211005 09:39:11.649"/>
+<status status="PASS" starttime="20211005 14:36:26.839" endtime="20211005 14:36:27.411"/>
 </kw>
 <kw name="MainData">
 <kw name="Click Element" library="Selenium2Library">
 <arg>xpath://*[@id="DocumentManifest_type"]/div[1]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:11.649" level="INFO">Clicking element 'xpath://*[@id="DocumentManifest_type"]/div[1]'.</msg>
-<status status="PASS" starttime="20211005 09:39:11.649" endtime="20211005 09:39:12.117"/>
+<msg timestamp="20211005 14:36:27.411" level="INFO">Clicking element 'xpath://*[@id="DocumentManifest_type"]/div[1]'.</msg>
+<status status="PASS" starttime="20211005 14:36:27.411" endtime="20211005 14:36:27.881"/>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <arg>xpath://*[@id="DocumentManifest_type"]/div[2]/div[1]/span/input</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:12.117" level="INFO">Clicking element 'xpath://*[@id="DocumentManifest_type"]/div[2]/div[1]/span/input'.</msg>
-<status status="PASS" starttime="20211005 09:39:12.117" endtime="20211005 09:39:12.610"/>
+<msg timestamp="20211005 14:36:27.881" level="INFO">Clicking element 'xpath://*[@id="DocumentManifest_type"]/div[2]/div[1]/span/input'.</msg>
+<status status="PASS" starttime="20211005 14:36:27.881" endtime="20211005 14:36:28.370"/>
 </kw>
 <kw name="Input Text" library="Selenium2Library">
 <arg>xpath://*[@id="DocumentManifest_type"]/div[2]/div[1]/span/input</arg>
 <arg>Исполнение ИПРА</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:12.610" level="INFO">Typing text 'Исполнение ИПРА' into text field 'xpath://*[@id="DocumentManifest_type"]/div[2]/div[1]/span/input'.</msg>
-<status status="PASS" starttime="20211005 09:39:12.610" endtime="20211005 09:39:13.401"/>
+<msg timestamp="20211005 14:36:28.370" level="INFO">Typing text 'Исполнение ИПРА' into text field 'xpath://*[@id="DocumentManifest_type"]/div[2]/div[1]/span/input'.</msg>
+<status status="PASS" starttime="20211005 14:36:28.370" endtime="20211005 14:36:29.184"/>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <arg>xpath://*[@id="DocumentManifest_type"]/div[2]/div[3]/ul/li</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:13.402" level="INFO">Clicking element 'xpath://*[@id="DocumentManifest_type"]/div[2]/div[3]/ul/li'.</msg>
-<status status="PASS" starttime="20211005 09:39:13.401" endtime="20211005 09:39:13.880"/>
+<msg timestamp="20211005 14:36:29.185" level="INFO">Clicking element 'xpath://*[@id="DocumentManifest_type"]/div[2]/div[3]/ul/li'.</msg>
+<status status="PASS" starttime="20211005 14:36:29.184" endtime="20211005 14:36:29.675"/>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <arg>xpath://*[@id="medicalOrganization"]/div[1]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:13.880" level="INFO">Clicking element 'xpath://*[@id="medicalOrganization"]/div[1]'.</msg>
-<status status="PASS" starttime="20211005 09:39:13.880" endtime="20211005 09:39:14.344"/>
+<msg timestamp="20211005 14:36:29.675" level="INFO">Clicking element 'xpath://*[@id="medicalOrganization"]/div[1]'.</msg>
+<status status="PASS" starttime="20211005 14:36:29.675" endtime="20211005 14:36:30.152"/>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <arg>xpath://*[@id="medicalOrganization"]/div[2]/div[1]/span/input</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:14.344" level="INFO">Clicking element 'xpath://*[@id="medicalOrganization"]/div[2]/div[1]/span/input'.</msg>
-<status status="PASS" starttime="20211005 09:39:14.344" endtime="20211005 09:39:14.793"/>
+<msg timestamp="20211005 14:36:30.152" level="INFO">Clicking element 'xpath://*[@id="medicalOrganization"]/div[2]/div[1]/span/input'.</msg>
+<status status="PASS" starttime="20211005 14:36:30.152" endtime="20211005 14:36:30.601"/>
 </kw>
 <kw name="Input Text" library="Selenium2Library">
 <arg>xpath://*[@id="medicalOrganization"]/div[2]/div[1]/span/input</arg>
 <arg>ООО</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:14.793" level="INFO">Typing text 'ООО' into text field 'xpath://*[@id="medicalOrganization"]/div[2]/div[1]/span/input'.</msg>
-<status status="PASS" starttime="20211005 09:39:14.793" endtime="20211005 09:39:15.466"/>
+<msg timestamp="20211005 14:36:30.601" level="INFO">Typing text 'ООО' into text field 'xpath://*[@id="medicalOrganization"]/div[2]/div[1]/span/input'.</msg>
+<status status="PASS" starttime="20211005 14:36:30.601" endtime="20211005 14:36:31.261"/>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <arg>xpath://*[@id="medicalOrganization"]/div[2]/div[3]/ul/li</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:15.466" level="INFO">Clicking element 'xpath://*[@id="medicalOrganization"]/div[2]/div[3]/ul/li'.</msg>
-<status status="PASS" starttime="20211005 09:39:15.466" endtime="20211005 09:39:15.934"/>
+<msg timestamp="20211005 14:36:31.261" level="INFO">Clicking element 'xpath://*[@id="medicalOrganization"]/div[2]/div[3]/ul/li'.</msg>
+<status status="PASS" starttime="20211005 14:36:31.261" endtime="20211005 14:36:31.729"/>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <arg>xpath://*[@id="organizationalUnit"]/div[1]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:15.934" level="INFO">Clicking element 'xpath://*[@id="organizationalUnit"]/div[1]'.</msg>
-<status status="PASS" starttime="20211005 09:39:15.934" endtime="20211005 09:39:16.395"/>
+<msg timestamp="20211005 14:36:31.730" level="INFO">Clicking element 'xpath://*[@id="organizationalUnit"]/div[1]'.</msg>
+<status status="PASS" starttime="20211005 14:36:31.729" endtime="20211005 14:36:32.199"/>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <arg>xpath://*[@id="organizationalUnit"]/div[2]/div[1]/span/input</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:16.395" level="INFO">Clicking element 'xpath://*[@id="organizationalUnit"]/div[2]/div[1]/span/input'.</msg>
-<status status="PASS" starttime="20211005 09:39:16.395" endtime="20211005 09:39:16.847"/>
+<msg timestamp="20211005 14:36:32.199" level="INFO">Clicking element 'xpath://*[@id="organizationalUnit"]/div[2]/div[1]/span/input'.</msg>
+<status status="PASS" starttime="20211005 14:36:32.199" endtime="20211005 14:36:32.667"/>
 </kw>
 <kw name="Input Text" library="Selenium2Library">
 <arg>xpath://*[@id="organizationalUnit"]/div[2]/div[1]/span/input</arg>
 <arg>ООО</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:16.847" level="INFO">Typing text 'ООО' into text field 'xpath://*[@id="organizationalUnit"]/div[2]/div[1]/span/input'.</msg>
-<status status="PASS" starttime="20211005 09:39:16.847" endtime="20211005 09:39:17.499"/>
+<msg timestamp="20211005 14:36:32.668" level="INFO">Typing text 'ООО' into text field 'xpath://*[@id="organizationalUnit"]/div[2]/div[1]/span/input'.</msg>
+<status status="PASS" starttime="20211005 14:36:32.667" endtime="20211005 14:36:33.321"/>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <arg>xpath://*[@id="organizationalUnit"]/div[2]/div[3]/ul/li</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:17.499" level="INFO">Clicking element 'xpath://*[@id="organizationalUnit"]/div[2]/div[3]/ul/li'.</msg>
-<status status="PASS" starttime="20211005 09:39:17.499" endtime="20211005 09:39:17.981"/>
+<msg timestamp="20211005 14:36:33.321" level="INFO">Clicking element 'xpath://*[@id="organizationalUnit"]/div[2]/div[3]/ul/li'.</msg>
+<status status="PASS" starttime="20211005 14:36:33.321" endtime="20211005 14:36:33.784"/>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <arg>xpath://*[@id="DocumentManifest_created"]/div[1]/input</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:17.981" level="INFO">Clicking element 'xpath://*[@id="DocumentManifest_created"]/div[1]/input'.</msg>
-<status status="PASS" starttime="20211005 09:39:17.981" endtime="20211005 09:39:18.477"/>
+<msg timestamp="20211005 14:36:33.785" level="INFO">Clicking element 'xpath://*[@id="DocumentManifest_created"]/div[1]/input'.</msg>
+<status status="PASS" starttime="20211005 14:36:33.784" endtime="20211005 14:36:34.276"/>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <arg>xpath://*[@id="DocumentManifest_created"]/div[2]/div/div/div/div/div[2]/div[2]/table/tbody/tr[2]/td[1]/div</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:18.477" level="INFO">Clicking element 'xpath://*[@id="DocumentManifest_created"]/div[2]/div/div/div/div/div[2]/div[2]/table/tbody/tr[2]/td[1]/div'.</msg>
-<status status="PASS" starttime="20211005 09:39:18.477" endtime="20211005 09:39:18.942"/>
+<msg timestamp="20211005 14:36:34.276" level="INFO">Clicking element 'xpath://*[@id="DocumentManifest_created"]/div[2]/div/div/div/div/div[2]/div[2]/table/tbody/tr[2]/td[1]/div'.</msg>
+<status status="PASS" starttime="20211005 14:36:34.276" endtime="20211005 14:36:34.753"/>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <arg>xpath://*[@id="documentDescription"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:18.942" level="INFO">Clicking element 'xpath://*[@id="documentDescription"]'.</msg>
-<status status="PASS" starttime="20211005 09:39:18.942" endtime="20211005 09:39:19.391"/>
+<msg timestamp="20211005 14:36:34.753" level="INFO">Clicking element 'xpath://*[@id="documentDescription"]'.</msg>
+<status status="PASS" starttime="20211005 14:36:34.753" endtime="20211005 14:36:35.214"/>
 </kw>
 <kw name="Input Text" library="Selenium2Library">
 <arg>id:documentDescription</arg>
 <arg>тест</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:19.391" level="INFO">Typing text 'тест' into text field 'id:documentDescription'.</msg>
-<status status="PASS" starttime="20211005 09:39:19.391" endtime="20211005 09:39:20.069"/>
+<msg timestamp="20211005 14:36:35.214" level="INFO">Typing text 'тест' into text field 'id:documentDescription'.</msg>
+<status status="PASS" starttime="20211005 14:36:35.214" endtime="20211005 14:36:35.906"/>
 </kw>
-<status status="PASS" starttime="20211005 09:39:11.649" endtime="20211005 09:39:20.069"/>
+<status status="PASS" starttime="20211005 14:36:27.411" endtime="20211005 14:36:35.906"/>
 </kw>
 <kw name="PatientPersonalData">
 <kw name="Click Element" library="Selenium2Library">
 <arg>id:SNILS</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:20.069" level="INFO">Clicking element 'id:SNILS'.</msg>
-<status status="PASS" starttime="20211005 09:39:20.069" endtime="20211005 09:39:20.510"/>
+<msg timestamp="20211005 14:36:35.906" level="INFO">Clicking element 'id:SNILS'.</msg>
+<status status="PASS" starttime="20211005 14:36:35.906" endtime="20211005 14:36:36.377"/>
 </kw>
 <kw name="Input Text" library="Selenium2Library">
 <arg>id: SNILS</arg>
 <arg>12345678901</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:20.510" level="INFO">Typing text '12345678901' into text field 'id: SNILS'.</msg>
-<status status="PASS" starttime="20211005 09:39:20.510" endtime="20211005 09:39:21.225"/>
+<msg timestamp="20211005 14:36:36.378" level="INFO">Typing text '12345678901' into text field 'id: SNILS'.</msg>
+<status status="PASS" starttime="20211005 14:36:36.377" endtime="20211005 14:36:37.124"/>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <arg>id:INP</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:21.225" level="INFO">Clicking element 'id:INP'.</msg>
-<status status="PASS" starttime="20211005 09:39:21.225" endtime="20211005 09:39:21.673"/>
+<msg timestamp="20211005 14:36:37.125" level="INFO">Clicking element 'id:INP'.</msg>
+<status status="PASS" starttime="20211005 14:36:37.124" endtime="20211005 14:36:37.576"/>
 </kw>
 <kw name="Input Text" library="Selenium2Library">
 <arg>id:INP</arg>
 <arg>1234567890123456</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:21.673" level="INFO">Typing text '1234567890123456' into text field 'id:INP'.</msg>
-<status status="PASS" starttime="20211005 09:39:21.673" endtime="20211005 09:39:22.429"/>
+<msg timestamp="20211005 14:36:37.576" level="INFO">Typing text '1234567890123456' into text field 'id:INP'.</msg>
+<status status="PASS" starttime="20211005 14:36:37.576" endtime="20211005 14:36:38.331"/>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <arg>id:surname</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:22.429" level="INFO">Clicking element 'id:surname'.</msg>
-<status status="PASS" starttime="20211005 09:39:22.429" endtime="20211005 09:39:22.885"/>
+<msg timestamp="20211005 14:36:38.331" level="INFO">Clicking element 'id:surname'.</msg>
+<status status="PASS" starttime="20211005 14:36:38.331" endtime="20211005 14:36:38.788"/>
 </kw>
 <kw name="Input Text" library="Selenium2Library">
 <arg>id:surname</arg>
 <arg>Иванов</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:22.885" level="INFO">Typing text 'Иванов' into text field 'id:surname'.</msg>
-<status status="PASS" starttime="20211005 09:39:22.885" endtime="20211005 09:39:23.563"/>
+<msg timestamp="20211005 14:36:38.788" level="INFO">Typing text 'Иванов' into text field 'id:surname'.</msg>
+<status status="PASS" starttime="20211005 14:36:38.788" endtime="20211005 14:36:39.516"/>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <arg>id:name</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:23.563" level="INFO">Clicking element 'id:name'.</msg>
-<status status="PASS" starttime="20211005 09:39:23.563" endtime="20211005 09:39:24.000"/>
+<msg timestamp="20211005 14:36:39.516" level="INFO">Clicking element 'id:name'.</msg>
+<status status="PASS" starttime="20211005 14:36:39.516" endtime="20211005 14:36:39.974"/>
 </kw>
 <kw name="Input Text" library="Selenium2Library">
 <arg>id:name</arg>
 <arg>Иван</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:24.000" level="INFO">Typing text 'Иван' into text field 'id:name'.</msg>
-<status status="PASS" starttime="20211005 09:39:24.000" endtime="20211005 09:39:24.693"/>
+<msg timestamp="20211005 14:36:39.974" level="INFO">Typing text 'Иван' into text field 'id:name'.</msg>
+<status status="PASS" starttime="20211005 14:36:39.974" endtime="20211005 14:36:40.657"/>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <arg>id:patronymic</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:24.693" level="INFO">Clicking element 'id:patronymic'.</msg>
-<status status="PASS" starttime="20211005 09:39:24.693" endtime="20211005 09:39:25.129"/>
+<msg timestamp="20211005 14:36:40.657" level="INFO">Clicking element 'id:patronymic'.</msg>
+<status status="PASS" starttime="20211005 14:36:40.657" endtime="20211005 14:36:41.117"/>
 </kw>
 <kw name="Input Text" library="Selenium2Library">
 <arg>id:patronymic</arg>
 <arg>Иванович</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:25.129" level="INFO">Typing text 'Иванович' into text field 'id:patronymic'.</msg>
-<status status="PASS" starttime="20211005 09:39:25.129" endtime="20211005 09:39:25.820"/>
+<msg timestamp="20211005 14:36:41.118" level="INFO">Typing text 'Иванович' into text field 'id:patronymic'.</msg>
+<status status="PASS" starttime="20211005 14:36:41.117" endtime="20211005 14:36:41.809"/>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <arg>xpath://*[@id="dateOfBirth"]/div[1]/input</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:25.820" level="INFO">Clicking element 'xpath://*[@id="dateOfBirth"]/div[1]/input'.</msg>
-<status status="PASS" starttime="20211005 09:39:25.820" endtime="20211005 09:39:26.290"/>
+<msg timestamp="20211005 14:36:41.809" level="INFO">Clicking element 'xpath://*[@id="dateOfBirth"]/div[1]/input'.</msg>
+<status status="PASS" starttime="20211005 14:36:41.809" endtime="20211005 14:36:42.289"/>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <arg>xpath://*[@id="dateOfBirth"]/div[2]/div/div/div/div/div[2]/div[1]/div/a[1]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:26.290" level="INFO">Clicking element 'xpath://*[@id="dateOfBirth"]/div[2]/div/div/div/div/div[2]/div[1]/div/a[1]'.</msg>
-<status status="PASS" starttime="20211005 09:39:26.290" endtime="20211005 09:39:26.751"/>
+<msg timestamp="20211005 14:36:42.289" level="INFO">Clicking element 'xpath://*[@id="dateOfBirth"]/div[2]/div/div/div/div/div[2]/div[1]/div/a[1]'.</msg>
+<status status="PASS" starttime="20211005 14:36:42.289" endtime="20211005 14:36:42.776"/>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <arg>xpath://*[@id="dateOfBirth"]/div[2]/div/div/div/div/div[2]/div[2]/table/tbody/tr[1]/td[4]/div</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:26.751" level="INFO">Clicking element 'xpath://*[@id="dateOfBirth"]/div[2]/div/div/div/div/div[2]/div[2]/table/tbody/tr[1]/td[4]/div'.</msg>
-<status status="PASS" starttime="20211005 09:39:26.751" endtime="20211005 09:39:27.196"/>
+<msg timestamp="20211005 14:36:42.776" level="INFO">Clicking element 'xpath://*[@id="dateOfBirth"]/div[2]/div/div/div/div/div[2]/div[2]/table/tbody/tr[1]/td[4]/div'.</msg>
+<status status="PASS" starttime="20211005 14:36:42.776" endtime="20211005 14:36:43.234"/>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <arg>xpath://*[@id="gender"]/div[1]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:27.196" level="INFO">Clicking element 'xpath://*[@id="gender"]/div[1]'.</msg>
-<status status="PASS" starttime="20211005 09:39:27.196" endtime="20211005 09:39:27.664"/>
+<msg timestamp="20211005 14:36:43.235" level="INFO">Clicking element 'xpath://*[@id="gender"]/div[1]'.</msg>
+<status status="PASS" starttime="20211005 14:36:43.235" endtime="20211005 14:36:43.700"/>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <arg>xpath://*[@id="gender"]/div[2]/div[3]/ul/li[3]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:27.664" level="INFO">Clicking element 'xpath://*[@id="gender"]/div[2]/div[3]/ul/li[3]'.</msg>
-<status status="PASS" starttime="20211005 09:39:27.664" endtime="20211005 09:39:28.144"/>
+<msg timestamp="20211005 14:36:43.700" level="INFO">Clicking element 'xpath://*[@id="gender"]/div[2]/div[3]/ul/li[3]'.</msg>
+<status status="PASS" starttime="20211005 14:36:43.700" endtime="20211005 14:36:44.178"/>
 </kw>
-<status status="PASS" starttime="20211005 09:39:20.069" endtime="20211005 09:39:28.144"/>
+<status status="PASS" starttime="20211005 14:36:35.906" endtime="20211005 14:36:44.178"/>
 </kw>
 <kw name="UploadFile">
 <kw name="Choose File" library="Selenium2Library">
 <arg>id:fileList</arg>
 <arg>${File_Path}</arg>
 <doc>Inputs the ``file_path`` into the file input field ``locator``.</doc>
-<msg timestamp="20211005 09:39:28.144" level="INFO">Sending C:\Users\aleksey.ermakov\PycharmProjects\TestFiles\Селеванов.xml to browser.</msg>
-<status status="PASS" starttime="20211005 09:39:28.144" endtime="20211005 09:39:28.607"/>
+<msg timestamp="20211005 14:36:44.179" level="INFO">Sending C:\Users\aleksey.ermakov\PycharmProjects\TestFiles\Селеванов.xml to browser.</msg>
+<status status="PASS" starttime="20211005 14:36:44.179" endtime="20211005 14:36:44.635"/>
 </kw>
-<status status="PASS" starttime="20211005 09:39:28.144" endtime="20211005 09:39:28.607"/>
+<status status="PASS" starttime="20211005 14:36:44.178" endtime="20211005 14:36:44.637"/>
 </kw>
 <kw name="CreateDocument">
 <kw name="Click Button" library="Selenium2Library">
 <arg>xpath:/html/body/div[2]/div/div[2]/div/div[2]/div[2]/form/div/div[17]/div/button</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:28.607" level="INFO">Clicking button 'xpath:/html/body/div[2]/div/div[2]/div/div[2]/div[2]/form/div/div[17]/div/button'.</msg>
-<status status="PASS" starttime="20211005 09:39:28.607" endtime="20211005 09:39:29.728"/>
+<msg timestamp="20211005 14:36:44.639" level="INFO">Clicking button 'xpath:/html/body/div[2]/div/div[2]/div/div[2]/div[2]/form/div/div[17]/div/button'.</msg>
+<status status="PASS" starttime="20211005 14:36:44.638" endtime="20211005 14:36:45.745"/>
 </kw>
-<status status="PASS" starttime="20211005 09:39:28.607" endtime="20211005 09:39:29.728"/>
+<status status="PASS" starttime="20211005 14:36:44.638" endtime="20211005 14:36:45.745"/>
 </kw>
-<status status="PASS" starttime="20211005 09:39:11.061" endtime="20211005 09:39:29.728"/>
+<status status="PASS" starttime="20211005 14:36:26.839" endtime="20211005 14:36:45.745"/>
 </test>
 <test id="s1-t3" name="CheckingDataTest">
 <kw name="Click Element" library="Selenium2Library">
 <arg>xpath://*[@id="root"]/section/main/div[2]/div/div[1]/div[1]/div/button[2]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20211005 09:39:29.728" level="INFO">Clicking element 'xpath://*[@id="root"]/section/main/div[2]/div/div[1]/div[1]/div/button[2]'.</msg>
+<msg timestamp="20211005 14:36:45.747" level="INFO">Clicking element 'xpath://*[@id="root"]/section/main/div[2]/div/div[1]/div[1]/div/button[2]'.</msg>
 <kw name="Capture Page Screenshot" library="Selenium2Library">
 <doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
-<msg timestamp="20211005 09:39:31.303" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-14.png"&gt;&lt;img src="selenium-screenshot-14.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20211005 09:39:30.966" endtime="20211005 09:39:31.303"/>
+<msg timestamp="20211005 14:36:47.322" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-17.png"&gt;&lt;img src="selenium-screenshot-17.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20211005 14:36:46.998" endtime="20211005 14:36:47.322"/>
 </kw>
-<msg timestamp="20211005 09:39:31.303" level="FAIL">ElementClickInterceptedException: Message: element click intercepted: Element &lt;button type="button" class="ant-btn a-btn a-btn--transparent a-btn--transparent--dark a-btn--add ant-dropdown-trigger"&gt;...&lt;/button&gt; is not clickable at point (1315, 176). Other element would receive the click: &lt;div class="ant-spin-container"&gt;...&lt;/div&gt;
+<msg timestamp="20211005 14:36:47.322" level="FAIL">ElementClickInterceptedException: Message: element click intercepted: Element &lt;button type="button" class="ant-btn a-btn a-btn--transparent a-btn--transparent--dark a-btn--add ant-dropdown-trigger"&gt;...&lt;/button&gt; is not clickable at point (1315, 176). Other element would receive the click: &lt;div class="ant-spin-container"&gt;...&lt;/div&gt;
   (Session info: chrome=94.0.4606.61)
 </msg>
-<status status="FAIL" starttime="20211005 09:39:29.728" endtime="20211005 09:39:31.303"/>
+<status status="FAIL" starttime="20211005 14:36:45.746" endtime="20211005 14:36:47.322"/>
 </kw>
-<status status="FAIL" starttime="20211005 09:39:29.728" endtime="20211005 09:39:31.303">ElementClickInterceptedException: Message: element click intercepted: Element &lt;button type="button" class="ant-btn a-btn a-btn--transparent a-btn--transparent--dark a-btn--add ant-dropdown-trigger"&gt;...&lt;/button&gt; is not clickable at point (1315, 176). Other element would receive the click: &lt;div class="ant-spin-container"&gt;...&lt;/div&gt;
+<status status="FAIL" starttime="20211005 14:36:45.746" endtime="20211005 14:36:47.328">ElementClickInterceptedException: Message: element click intercepted: Element &lt;button type="button" class="ant-btn a-btn a-btn--transparent a-btn--transparent--dark a-btn--add ant-dropdown-trigger"&gt;...&lt;/button&gt; is not clickable at point (1315, 176). Other element would receive the click: &lt;div class="ant-spin-container"&gt;...&lt;/div&gt;
   (Session info: chrome=94.0.4606.61)
 </status>
 </test>
-<status status="FAIL" starttime="20211005 09:39:06.007" endtime="20211005 09:39:31.303"/>
+<status status="FAIL" starttime="20211005 14:36:21.911" endtime="20211005 14:36:47.328"/>
 </suite>
 <statistics>
 <total>
